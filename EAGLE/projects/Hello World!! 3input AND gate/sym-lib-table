@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name 3inputadder-eagle-import)(type Legacy)(uri ${KIPRJMOD}/3inputadder-eagle-import.lib)(options "")(descr ""))
+)
