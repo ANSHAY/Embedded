@@ -1,0 +1,139 @@
+NDS Database:  version M.81d
+
+NDS_INFO | xpla3 | 3032XL44PC | XCR3032XL-5-PC44
+
+DEVICE | 3032XL | 3032XL44PC | 
+
+NETWORK | mux | 0 | 0 | 536887302
+
+INPUT_INSTANCE | 0 | 0 | NULL | inp<0>_II | mux_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | inp<0> | 283 | PI | 0 | 0 | mux_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | inp<0>_II/UIM | 297 | ? | 0 | 0 | mux_COPY_0_COPY_0 | NULL | NULL | inp<0>_II | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | inp<1>_II | mux_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | inp<1> | 284 | PI | 0 | 0 | mux_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | inp<1>_II/UIM | 296 | ? | 0 | 0 | mux_COPY_0_COPY_0 | NULL | NULL | inp<1>_II | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | inp<2>_II | mux_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | inp<2> | 285 | PI | 0 | 0 | mux_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | inp<2>_II/UIM | 295 | ? | 0 | 0 | mux_COPY_0_COPY_0 | NULL | NULL | inp<2>_II | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | inp<3>_II | mux_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | inp<3> | 286 | PI | 0 | 0 | mux_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | inp<3>_II/UIM | 292 | ? | 0 | 0 | mux_COPY_0_COPY_0 | NULL | NULL | inp<3>_II | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | NULL | oup_MC | mux_COPY_0_COPY_0 | 0 | 6 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<1>_II/UIM | 291 | ? | 0 | 0 | mux_COPY_0_COPY_0 | NULL | NULL | sel<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | inp<3>_II/UIM | 292 | ? | 0 | 0 | mux_COPY_0_COPY_0 | NULL | NULL | inp<3>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<0>_II/UIM | 294 | ? | 0 | 0 | mux_COPY_0_COPY_0 | NULL | NULL | sel<0>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | inp<2>_II/UIM | 295 | ? | 0 | 0 | mux_COPY_0_COPY_0 | NULL | NULL | inp<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | inp<1>_II/UIM | 296 | ? | 0 | 0 | mux_COPY_0_COPY_0 | NULL | NULL | inp<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | inp<0>_II/UIM | 297 | ? | 0 | 0 | mux_COPY_0_COPY_0 | NULL | NULL | inp<0>_II | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | oup_MC.Q | 299 | ? | 0 | 0 | mux_COPY_0_COPY_0 | NULL | oup_MC.Q | oup_MC | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | oup_MC.SI | oup_MC | 0 | 6 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<1>_II/UIM | 291 | ? | 0 | 0 | mux_COPY_0_COPY_0 | NULL | NULL | sel<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | inp<3>_II/UIM | 292 | ? | 0 | 0 | mux_COPY_0_COPY_0 | NULL | NULL | inp<3>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<0>_II/UIM | 294 | ? | 0 | 0 | mux_COPY_0_COPY_0 | NULL | NULL | sel<0>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | inp<2>_II/UIM | 295 | ? | 0 | 0 | mux_COPY_0_COPY_0 | NULL | NULL | inp<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | inp<1>_II/UIM | 296 | ? | 0 | 0 | mux_COPY_0_COPY_0 | NULL | NULL | inp<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | inp<0>_II/UIM | 297 | ? | 0 | 0 | mux_COPY_0_COPY_0 | NULL | NULL | inp<0>_II | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | oup_MC.D1 | 289 | ? | 0 | 0 | oup_MC | NULL | NULL | oup_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | oup_MC.D2 | 288 | ? | 0 | 0 | oup_MC | NULL | NULL | oup_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_TRUE | sel<1>_II/UIM | IV_TRUE | inp<3>_II/UIM | IV_TRUE | sel<0>_II/UIM
+SPPTERM | 3 | IV_TRUE | sel<1>_II/UIM | IV_FALSE | sel<0>_II/UIM | IV_TRUE | inp<2>_II/UIM
+SPPTERM | 3 | IV_FALSE | sel<1>_II/UIM | IV_TRUE | sel<0>_II/UIM | IV_TRUE | inp<1>_II/UIM
+SPPTERM | 3 | IV_FALSE | sel<1>_II/UIM | IV_FALSE | sel<0>_II/UIM | IV_TRUE | inp<0>_II/UIM
+
+SRFF_INSTANCE | oup_MC.REG | oup_MC | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | oup_MC.D | 287 | ? | 0 | 0 | oup_MC | NULL | NULL | oup_MC.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | oup_MC.Q | 298 | ? | 0 | 0 | oup_MC | NULL | NULL | oup_MC.REG | 0 | 8 | SRFF_Q
+
+INPUT_INSTANCE | 0 | 0 | NULL | sel<1>_II | mux_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | sel<1> | 290 | PI | 0 | 0 | mux_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | sel<1>_II/UIM | 291 | ? | 0 | 0 | mux_COPY_0_COPY_0 | NULL | NULL | sel<1>_II | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | sel<0>_II | mux_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | sel<0> | 293 | PI | 0 | 0 | mux_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | sel<0>_II/UIM | 294 | ? | 0 | 0 | mux_COPY_0_COPY_0 | NULL | NULL | sel<0>_II | 0 | 5 | II_IMUX
+
+OUTPUT_INSTANCE | 0 | oup | mux_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | oup_MC.Q | 299 | ? | 0 | 0 | mux_COPY_0_COPY_0 | NULL | oup_MC.Q | oup_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | oup | 300 | PO | 0 | 0 | mux_COPY_0_COPY_0 | NULL | NULL | oup | 0 | 6 | OI_OUT
+
+INPUT_INSTANCE | 0 | 0 | NULL | xPUP_0_II | mux_COPY_0_COPY_0 | 0 | 1 | 0
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | xPUP_0 | 301 | PI | 0 | 0 | mux_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+
+FB_INSTANCE | FOOBAR1_ | mux_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 1 | oup_MC | 1 | NULL | 0 | oup | 1 | 4 | 49152
+FBPIN | 2 | NULL | 0 | inp<0>_II | 1 | NULL | 0 | 5 | 49152
+FBPIN | 3 | NULL | 0 | inp<1>_II | 1 | NULL | 0 | 6 | 49152
+FBPIN | 5 | NULL | 0 | inp<2>_II | 1 | NULL | 0 | 8 | 49152
+FBPIN | 6 | NULL | 0 | inp<3>_II | 1 | NULL | 0 | 9 | 49152
+FBPIN | 7 | NULL | 0 | sel<0>_II | 1 | NULL | 0 | 11 | 49152
+FBPIN | 8 | NULL | 0 | sel<1>_II | 1 | NULL | 0 | 12 | 49152
+
+FB_INSTANCE | FOOBAR2_ | mux_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | INPUTPINS_FOOBAR3_ | mux_COPY_0_COPY_0 | 0 | 0 | 0
+
+CT_INSTANCE | FOOBAR1_ | FOOBAR1__ctinst | mux_COPY_0_COPY_0 | 0 | 0 | 0
+
+CT_INSTANCE | FOOBAR2_ | FOOBAR2__ctinst | mux_COPY_0_COPY_0 | 0 | 0 | 0
+
+PLA | FOOBAR1_ | 4
+PLA_TERM | 0 | 
+SPPTERM | 3 | IV_TRUE | sel<1>_II/UIM | IV_TRUE | inp<3>_II/UIM | IV_TRUE | sel<0>_II/UIM
+PLA_TERM | 1 | 
+SPPTERM | 3 | IV_TRUE | sel<1>_II/UIM | IV_FALSE | sel<0>_II/UIM | IV_TRUE | inp<2>_II/UIM
+PLA_TERM | 2 | 
+SPPTERM | 3 | IV_FALSE | sel<1>_II/UIM | IV_TRUE | sel<0>_II/UIM | IV_TRUE | inp<1>_II/UIM
+PLA_TERM | 3 | 
+SPPTERM | 3 | IV_FALSE | sel<1>_II/UIM | IV_FALSE | sel<0>_II/UIM | IV_TRUE | inp<0>_II/UIM
+
+GLOBAL_FCLK_IDX | FOOBAR1_ | -1 | -1
+
+GLOBAL_FCLK_IDX | FOOBAR2_ | -1 | -1
+
+BUSINFO | INP<3:0> | 4 | 0 | 0 | inp<0> | 3 | inp<1> | 2 | inp<2> | 1 | inp<3> | 0
+BUSINFO | SEL<1:0> | 2 | 0 | 0 | sel<0> | 1 | sel<1> | 0
+
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 1 | inp<0> | 5 | 2 | inp<1> | 6 | 4 | inp<2> | 8 | 5 | inp<3> | 9 | 6 | sel<0> | 11
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 7 | sel<1> | 12
+
+FB_IMUX_INDEX | FOOBAR1_ | -1 | 1 | 2 | -1 | 4 | 5 | 6 | 7 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1
+
+

@@ -1,0 +1,8 @@
+V3 3
+FL "G:/MyDesigns/VHDL Xilinx/Mux/Mux.srcs/sources_1/imports/mux.vhd" 2014/06/19.12:47:17 M.81d
+EN work/mux 1403162281 \
+      FL "G:/MyDesigns/VHDL Xilinx/Mux/Mux.srcs/sources_1/imports/mux.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/mux/mux 1403162282 \
+      FL "G:/MyDesigns/VHDL Xilinx/Mux/Mux.srcs/sources_1/imports/mux.vhd" \
+      EN work/mux 1403162281

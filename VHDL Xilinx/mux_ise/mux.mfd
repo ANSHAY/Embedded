@@ -1,0 +1,19 @@
+MDF Database:  version 1.0
+MDF_INFO | mux | XCR3032XL-5-PC44
+MACROCELL | 0 | 0 | oup_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 6 | sel<1>  | inp<3>  | sel<0>  | inp<2>  | inp<1>  | inp<0>
+INPUTP | 6 | 6 | 3 | 5 | 2 | 44 | 43
+EQ | 4 | 
+   oup = sel<1> & inp<3> & sel<0>
+	# sel<1> & !sel<0> & inp<2>
+	# !sel<1> & sel<0> & inp<1>
+	# !sel<1> & !sel<0> & inp<0>;	// (4 pt, 6 inp)
+
+PIN | inp<0> | 64 | 0 | N/A | 43 | 1 | 0 | 0
+PIN | inp<1> | 64 | 0 | N/A | 44 | 1 | 0 | 0
+PIN | inp<2> | 64 | 0 | N/A | 2 | 1 | 0 | 0
+PIN | inp<3> | 64 | 0 | N/A | 3 | 1 | 0 | 0
+PIN | sel<1> | 64 | 0 | N/A | 6 | 1 | 0 | 0
+PIN | sel<0> | 64 | 0 | N/A | 5 | 1 | 0 | 0
+PIN | oup | 536871040 | 0 | N/A | 42

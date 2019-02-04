@@ -1,0 +1,26 @@
+V3 18
+FL "G:/MyDesigns/VHDL Xilinx/mux_sch/mux.vhf" 2014/06/19.13:12:39 M.81d
+EN work/M2_1E_MXILINX_mux 1403163906 \
+      FL "G:/MyDesigns/VHDL Xilinx/mux_sch/mux.vhf" PB ieee/std_logic_1164 1290154108 \
+      PB ieee/NUMERIC_STD 1290154109 LB UNISIM PH unisim/VCOMPONENTS 1290154108
+AR work/M2_1E_MXILINX_mux/BEHAVIORAL 1403163907 \
+      FL "G:/MyDesigns/VHDL Xilinx/mux_sch/mux.vhf" EN work/M2_1E_MXILINX_mux 1403163906 \
+      CP AND3 CP AND3B1 CP OR2
+EN work/M2_1_MXILINX_mux 1403163908 \
+      FL "G:/MyDesigns/VHDL Xilinx/mux_sch/mux.vhf" PB ieee/std_logic_1164 1290154108 \
+      PB ieee/NUMERIC_STD 1290154109 LB UNISIM PH unisim/VCOMPONENTS 1290154108
+AR work/M2_1_MXILINX_mux/BEHAVIORAL 1403163909 \
+      FL "G:/MyDesigns/VHDL Xilinx/mux_sch/mux.vhf" EN work/M2_1_MXILINX_mux 1403163908 \
+      CP AND2B1 CP OR2 CP AND2
+EN work/M4_1E_MXILINX_mux 1403163910 \
+      FL "G:/MyDesigns/VHDL Xilinx/mux_sch/mux.vhf" PB ieee/std_logic_1164 1290154108 \
+      PB ieee/NUMERIC_STD 1290154109 LB UNISIM PH unisim/VCOMPONENTS 1290154108
+AR work/M4_1E_MXILINX_mux/BEHAVIORAL 1403163911 \
+      FL "G:/MyDesigns/VHDL Xilinx/mux_sch/mux.vhf" EN work/M4_1E_MXILINX_mux 1403163910 \
+      CP M2_1E_MXILINX_mux CP M2_1_MXILINX_mux
+EN work/mux 1403163912 \
+      FL "G:/MyDesigns/VHDL Xilinx/mux_sch/mux.vhf" PB ieee/std_logic_1164 1290154108 \
+      PB ieee/NUMERIC_STD 1290154109 LB UNISIM PH unisim/VCOMPONENTS 1290154108
+AR work/mux/BEHAVIORAL 1403163913 \
+      FL "G:/MyDesigns/VHDL Xilinx/mux_sch/mux.vhf" EN work/mux 1403163912 \
+      CP M4_1E_MXILINX_mux

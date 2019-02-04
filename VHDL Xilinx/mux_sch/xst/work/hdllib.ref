@@ -1,0 +1,8 @@
+AR mux behavioral "G:/MyDesigns/VHDL Xilinx/mux_sch/mux.vhf" sub00/vhpl07 1403163913
+AR m4_1e_mxilinx_mux behavioral "G:/MyDesigns/VHDL Xilinx/mux_sch/mux.vhf" sub00/vhpl05 1403163911
+EN m2_1_mxilinx_mux NULL "G:/MyDesigns/VHDL Xilinx/mux_sch/mux.vhf" sub00/vhpl02 1403163908
+AR m2_1_mxilinx_mux behavioral "G:/MyDesigns/VHDL Xilinx/mux_sch/mux.vhf" sub00/vhpl03 1403163909
+EN m4_1e_mxilinx_mux NULL "G:/MyDesigns/VHDL Xilinx/mux_sch/mux.vhf" sub00/vhpl04 1403163910
+EN m2_1e_mxilinx_mux NULL "G:/MyDesigns/VHDL Xilinx/mux_sch/mux.vhf" sub00/vhpl00 1403163906
+EN mux NULL "G:/MyDesigns/VHDL Xilinx/mux_sch/mux.vhf" sub00/vhpl06 1403163912
+AR m2_1e_mxilinx_mux behavioral "G:/MyDesigns/VHDL Xilinx/mux_sch/mux.vhf" sub00/vhpl01 1403163907

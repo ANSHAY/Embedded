@@ -1,0 +1,56 @@
+--------------------------------------------------------------------------------
+Release 12.4 Trace  (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\12.4\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -o mux.twr
+-v 30 -l 30 mux_routed.ncd mux.pcf
+
+Design file:              mux_routed.ncd
+Physical constraint file: mux.pcf
+Device,package,speed:     xc5vfx30t,ff665,-1 (PRODUCTION 1.72 2010-11-18, STEPPING level 0)
+Report level:             verbose report, limited to 30 items per constraint
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+inp[0]         |oup            |    5.999|
+inp[1]         |oup            |    6.100|
+inp[2]         |oup            |    6.327|
+inp[3]         |oup            |    5.650|
+sel[0]         |oup            |    5.630|
+sel[1]         |oup            |    5.933|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Jun 19 12:50:36 2014 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 325 MB
+
+
+

@@ -1,0 +1,6 @@
+V3 3
+FL "G:/MyDesigns/VHDL Xilinx/mux_ise/mux.vhd" 2014/06/19.13:05:12 M.81d
+EN work/mux 1403163343 FL "G:/MyDesigns/VHDL Xilinx/mux_ise/mux.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/mux/Behavioral 1403163344 \
+      FL "G:/MyDesigns/VHDL Xilinx/mux_ise/mux.vhd" EN work/mux 1403163343

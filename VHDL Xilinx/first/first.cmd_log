@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "G:/MyDesigns/VHDL Xilinx/first/first.xst" -ofn "G:/MyDesigns/VHDL Xilinx/first/first.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xa9500xl "first.ngc" first.ngd  
+cpldfit -intstyle ise -p xa95*xl-*-* -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -terminate keeper first.ngd 
+XSLTProcess first_build.xml 
+tsim -intstyle ise first first.nga 
+taengine -intstyle ise -f first -w --format html1 -l first_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n first -i first 
