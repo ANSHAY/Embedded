@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name basic_led_with_connector-rescue)(type Legacy)(uri ${KIPRJMOD}/basic_led_with_connector-rescue.lib)(options "")(descr ""))
+)
