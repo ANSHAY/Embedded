@@ -1,0 +1,381 @@
+EESchema Schematic File Version 4
+LIBS:555_Badge-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "555 Badge"
+Date "2019-03-31"
+Rev "v01"
+Comp ""
+Comment1 ""
+Comment2 "creativecommons.org/licenses/by/4.0"
+Comment3 "License: CC BY 4.0"
+Comment4 "Author: Anshay Agarwal"
+$EndDescr
+$Comp
+L 555_Badge:7555 U1
+U 1 1 5CA09D65
+P 5700 3650
+F 0 "U1" H 6194 3696 50  0000 L CNN
+F 1 "7555" H 6194 3605 50  0000 L CNN
+F 2 "555_Badge:ICM7555-PDIP" H 5700 3650 50  0001 C CNN
+F 3 "" H 5700 3650 50  0001 C CNN
+	1    5700 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5CA0A6C7
+P 4800 3200
+F 0 "R1" H 4870 3246 50  0000 L CNN
+F 1 "22k" H 4870 3155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4730 3200 50  0001 C CNN
+F 3 "~" H 4800 3200 50  0001 C CNN
+	1    4800 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5CA0BBDA
+P 4800 3900
+F 0 "R2" H 4870 3946 50  0000 L CNN
+F 1 "330k" H 4870 3855 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4730 3900 50  0001 C CNN
+F 3 "~" H 4800 3900 50  0001 C CNN
+	1    4800 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5CA0C282
+P 6500 3600
+F 0 "R3" V 6293 3600 50  0000 C CNN
+F 1 "22k" V 6384 3600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6430 3600 50  0001 C CNN
+F 3 "~" H 6500 3600 50  0001 C CNN
+	1    6500 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5CA0C97C
+P 6900 3750
+F 0 "R4" H 6970 3796 50  0000 L CNN
+F 1 "100k" H 6970 3705 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6830 3750 50  0001 C CNN
+F 3 "~" H 6900 3750 50  0001 C CNN
+	1    6900 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5CA0CD00
+P 7600 3600
+F 0 "R5" V 7393 3600 50  0000 C CNN
+F 1 "10k" V 7484 3600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7530 3600 50  0001 C CNN
+F 3 "~" H 7600 3600 50  0001 C CNN
+	1    7600 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5CA0D23A
+P 8150 2450
+F 0 "R6" H 8220 2496 50  0000 L CNN
+F 1 "100" H 8220 2405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8080 2450 50  0001 C CNN
+F 3 "~" H 8150 2450 50  0001 C CNN
+	1    8150 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5CA0D356
+P 8650 2450
+F 0 "R7" H 8720 2496 50  0000 L CNN
+F 1 "100" H 8720 2405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8580 2450 50  0001 C CNN
+F 3 "~" H 8650 2450 50  0001 C CNN
+	1    8650 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C2
+U 1 1 5CA0F554
+P 7250 3750
+F 0 "C2" H 7365 3796 50  0000 L CNN
+F 1 "100uF" H 7365 3705 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 7250 3750 50  0001 C CNN
+F 3 "~" H 7250 3750 50  0001 C CNN
+	1    7250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5CA0F78F
+P 8150 2950
+F 0 "D1" V 8189 2832 50  0000 R CNN
+F 1 "RED" V 8098 2832 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 8150 2950 50  0001 C CNN
+F 3 "~" H 8150 2950 50  0001 C CNN
+	1    8150 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5CA10279
+P 8650 2950
+F 0 "D2" V 8689 2832 50  0000 R CNN
+F 1 "RED" V 8598 2832 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 8650 2950 50  0001 C CNN
+F 3 "~" H 8650 2950 50  0001 C CNN
+	1    8650 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5CA1077E
+P 4800 4750
+F 0 "#PWR04" H 4800 4500 50  0001 C CNN
+F 1 "GND" H 4805 4577 50  0000 C CNN
+F 2 "" H 4800 4750 50  0001 C CNN
+F 3 "" H 4800 4750 50  0001 C CNN
+	1    4800 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5CA118EB
+P 6900 4050
+F 0 "#PWR07" H 6900 3800 50  0001 C CNN
+F 1 "GND" H 6905 3877 50  0000 C CNN
+F 2 "" H 6900 4050 50  0001 C CNN
+F 3 "" H 6900 4050 50  0001 C CNN
+	1    6900 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5CA11BAD
+P 7250 4050
+F 0 "#PWR08" H 7250 3800 50  0001 C CNN
+F 1 "GND" H 7255 3877 50  0000 C CNN
+F 2 "" H 7250 4050 50  0001 C CNN
+F 3 "" H 7250 4050 50  0001 C CNN
+	1    7250 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q1
+U 1 1 5CA1270D
+P 8050 3600
+F 0 "Q1" H 8240 3646 50  0000 L CNN
+F 1 "2N3904" H 8240 3555 50  0000 L CNN
+F 2 "digikey-footprints:TO-92-3" H 8250 3525 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 8050 3600 50  0001 L CNN
+	1    8050 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR011
+U 1 1 5CA15766
+P 8650 2200
+F 0 "#PWR011" H 8650 2050 50  0001 C CNN
+F 1 "VCC" H 8667 2373 50  0000 C CNN
+F 2 "" H 8650 2200 50  0001 C CNN
+F 3 "" H 8650 2200 50  0001 C CNN
+	1    8650 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR03
+U 1 1 5CA16727
+P 4800 2950
+F 0 "#PWR03" H 4800 2800 50  0001 C CNN
+F 1 "VCC" H 4817 3123 50  0000 C CNN
+F 2 "" H 4800 2950 50  0001 C CNN
+F 3 "" H 4800 2950 50  0001 C CNN
+	1    4800 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 2950 4800 3050
+Wire Wire Line
+	4800 3350 4800 3450
+Wire Wire Line
+	5250 3450 4800 3450
+Connection ~ 4800 3450
+Wire Wire Line
+	4800 3450 4800 3750
+Wire Wire Line
+	5250 3600 5250 3700
+Wire Wire Line
+	5250 3700 5250 4150
+Wire Wire Line
+	5250 4150 4800 4150
+Wire Wire Line
+	4800 4150 4800 4050
+Connection ~ 5250 3700
+Wire Wire Line
+	5650 4350 5650 4100
+Wire Wire Line
+	6350 3600 6150 3600
+Wire Wire Line
+	6650 3600 6900 3600
+Wire Wire Line
+	7250 3600 6900 3600
+Connection ~ 6900 3600
+Wire Wire Line
+	7450 3600 7250 3600
+Connection ~ 7250 3600
+Wire Wire Line
+	6900 3900 6900 4050
+Wire Wire Line
+	7250 4050 7250 3900
+Wire Wire Line
+	7850 3600 7750 3600
+Wire Wire Line
+	8150 3400 8150 3350
+Wire Wire Line
+	8650 3100 8650 3350
+Wire Wire Line
+	8650 3350 8150 3350
+Connection ~ 8150 3350
+Wire Wire Line
+	8150 3350 8150 3100
+Wire Wire Line
+	8650 2800 8650 2600
+Wire Wire Line
+	8150 2800 8150 2600
+Wire Wire Line
+	8650 2300 8650 2200
+$Comp
+L power:GND #PWR06
+U 1 1 5CA11078
+P 5650 4350
+F 0 "#PWR06" H 5650 4100 50  0001 C CNN
+F 1 "GND" H 5655 4177 50  0000 C CNN
+F 2 "" H 5650 4350 50  0001 C CNN
+F 3 "" H 5650 4350 50  0001 C CNN
+	1    5650 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5CA71BB4
+P 5750 3000
+F 0 "#PWR?" H 5750 2850 50  0001 C CNN
+F 1 "VCC" H 5767 3173 50  0000 C CNN
+F 2 "" H 5750 3000 50  0001 C CNN
+F 3 "" H 5750 3000 50  0001 C CNN
+	1    5750 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 3000 5750 3200
+Wire Wire Line
+	5650 3200 5750 3200
+Connection ~ 5750 3200
+$Comp
+L power:GND #PWR?
+U 1 1 5CA73A4F
+P 8150 3900
+F 0 "#PWR?" H 8150 3650 50  0001 C CNN
+F 1 "GND" H 8155 3727 50  0000 C CNN
+F 2 "" H 8150 3900 50  0001 C CNN
+F 3 "" H 8150 3900 50  0001 C CNN
+	1    8150 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 3900 8150 3800
+$Comp
+L power:VCC #PWR?
+U 1 1 5CA75B79
+P 8150 2200
+F 0 "#PWR?" H 8150 2050 50  0001 C CNN
+F 1 "VCC" H 8167 2373 50  0000 C CNN
+F 2 "" H 8150 2200 50  0001 C CNN
+F 3 "" H 8150 2200 50  0001 C CNN
+	1    8150 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 2300 8150 2200
+$Comp
+L dk_Battery-Holders-Clips-Contacts:BS-7 BAT?
+U 1 1 5CA77F7C
+P 3900 3750
+F 0 "BAT?" H 4028 3803 60  0000 L CNN
+F 1 "BS-7" H 4028 3697 60  0000 L CNN
+F 2 "digikey-footprints:Battery_Holder_Coin_2032_BS-7" H 4100 3950 60  0001 L CNN
+F 3 "http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf" V 4100 4050 60  0001 L CNN
+F 4 "BS-7-ND" H 4100 4150 60  0001 L CNN "Digi-Key_PN"
+F 5 "BS-7" H 4100 4250 60  0001 L CNN "MPN"
+F 6 "Battery Products" H 4100 4350 60  0001 L CNN "Category"
+F 7 "Battery Holders, Clips, Contacts" H 4100 4450 60  0001 L CNN "Family"
+F 8 "http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf" H 4100 4550 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/mpd-memory-protection-devices/BS-7/BS-7-ND/389447" H 4100 4650 60  0001 L CNN "DK_Detail_Page"
+F 10 "BATTERY HOLDER COIN 20MM PC PIN" H 4100 4750 60  0001 L CNN "Description"
+F 11 "MPD (Memory Protection Devices)" H 4100 4850 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4100 4950 60  0001 L CNN "Status"
+	1    3900 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Slide-Switches:EG1218 S?
+U 1 1 5CA7927F
+P 4100 3200
+F 0 "S?" H 4100 3481 50  0000 C CNN
+F 1 "EG1218" H 4100 3390 50  0000 C CNN
+F 2 "digikey-footprints:Switch_Slide_11.6x4mm_EG1218" H 4300 3400 50  0001 L CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 4300 3500 60  0001 L CNN
+F 4 "EG1903-ND" H 4300 3600 60  0001 L CNN "Digi-Key_PN"
+F 5 "EG1218" H 4300 3700 60  0001 L CNN "MPN"
+F 6 "Switches" H 4300 3800 60  0001 L CNN "Category"
+F 7 "Slide Switches" H 4300 3900 60  0001 L CNN "Family"
+F 8 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 4300 4000 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/e-switch/EG1218/EG1903-ND/101726" H 4300 4100 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH SLIDE SPDT 200MA 30V" H 4300 4200 60  0001 L CNN "Description"
+F 11 "E-Switch" H 4300 4300 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4300 4400 60  0001 L CNN "Status"
+	1    4100 3200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 4750 4800 4150
+Connection ~ 4800 4150
+$Comp
+L power:GND #PWR?
+U 1 1 5CA87F0D
+P 3900 4150
+F 0 "#PWR?" H 3900 3900 50  0001 C CNN
+F 1 "GND" H 3905 3977 50  0000 C CNN
+F 2 "" H 3900 4150 50  0001 C CNN
+F 3 "" H 3900 4150 50  0001 C CNN
+	1    3900 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 4150 3900 3950
+$Comp
+L power:VCC #PWR?
+U 1 1 5CA88A2F
+P 4400 3050
+F 0 "#PWR?" H 4400 2900 50  0001 C CNN
+F 1 "VCC" H 4417 3223 50  0000 C CNN
+F 2 "" H 4400 3050 50  0001 C CNN
+F 3 "" H 4400 3050 50  0001 C CNN
+	1    4400 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 3200 4400 3200
+Wire Wire Line
+	4400 3200 4400 3050
+Wire Wire Line
+	3900 3300 3900 3550
+$EndSCHEMATC

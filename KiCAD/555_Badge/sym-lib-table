@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name 555_Badge)(type Legacy)(uri ${KIPRJMOD}/555_Badge.lib)(options "")(descr ""))
+  (lib (name dk_Battery-Holders-Clips-Contacts)(type Legacy)(uri ${KIPRJMOD}/libraries/digikey-symbols/dk_Battery-Holders-Clips-Contacts.lib)(options "")(descr ""))
+  (lib (name dk_Slide-Switches)(type Legacy)(uri ${KIPRJMOD}/libraries/digikey-symbols/dk_Slide-Switches.lib)(options "")(descr ""))
+)

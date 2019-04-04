@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name 555_Badge)(type KiCad)(uri ${KIPRJMOD}/555_Badge.pretty)(options "")(descr ""))
+  (lib (name digikey-footprints)(type KiCad)(uri /home/thunder/Documents/KiCAD/libraries/digikey-footprints.pretty)(options "")(descr ""))
+)
