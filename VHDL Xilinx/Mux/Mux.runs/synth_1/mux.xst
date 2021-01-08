@@ -1,8 +1,0 @@
-run
--ifn mux.prj
--top mux
--p xc5vfx30tff665-1
--ofn mux.ngc
--opt_mode speed
--opt_level 1
--netlist_hierarchy rebuilt

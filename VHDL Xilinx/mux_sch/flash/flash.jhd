@@ -1,5 +1,0 @@
-MODULE flash
-	SUBMODULE lxroll7
-		INSTANCE I6
-	SUBMODULE bounce8
-		INSTANCE I5

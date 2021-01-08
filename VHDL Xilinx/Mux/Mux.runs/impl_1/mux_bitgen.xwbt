@@ -1,8 +1,0 @@
-INTSTYLE=pa
-INFILE=G:\MyDesigns\VHDL Xilinx\Mux\Mux.runs\impl_1\mux_routed.ncd
-OUTFILE=G:\MyDesigns\VHDL Xilinx\Mux\Mux.runs\impl_1\mux.bit
-FAMILY=Virtex5
-PART=xc5vfx30t-1ff665
-WORKINGDIR=G:\MyDesigns\VHDL Xilinx\Mux\Mux.runs\impl_1
-LICENSE=WebPack
-USER_INFO=0_0_0

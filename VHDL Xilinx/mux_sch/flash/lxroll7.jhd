@@ -1,3 +1,0 @@
-MODULE lxroll7
-	SUBMODULE hex2led
-		INSTANCE I2
